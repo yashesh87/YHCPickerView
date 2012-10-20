@@ -66,7 +66,7 @@ THE SOFTWARE.
 
 ## Credits
 
-IAInfiniteGridView was created by [Yashesh Chauhan](https://github.com/yashesh87) 
+YHCPickerView was created by [Yashesh Chauhan](https://github.com/yashesh87) 
 
 Feel free to contact me,
 
