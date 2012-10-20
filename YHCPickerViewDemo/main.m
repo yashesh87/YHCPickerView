@@ -2,8 +2,8 @@
 //  main.m
 //  YHCPickerViewDemo
 //
-//  Created by WebAtEase on 20/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Yashesh Chauhan on 20/10/12.
+//  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

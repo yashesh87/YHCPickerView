@@ -2,8 +2,8 @@
 //  YHCPickerView.m
 //  TestDB
 //
-//  Created by RainCreatives on 01/10/12.
-//  Copyright (c) 2012 RainCreatives. All rights reserved.
+//  Created by Yashesh Chauhan on 01/10/12.
+//  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
 #import "YHCPickerView.h"
@@ -53,7 +53,6 @@
     [picketToolbar sizeToFit];
     
     txtSearch = [[UISearchBar alloc] initWithFrame:CGRectMake(15, 7, 240, 31)];
-    txtSearch.layer.cornerRadius = 8.0;
     txtSearch.tag = 1;
     txtSearch.barStyle = UIBarStyleBlackTranslucent;
     txtSearch.backgroundColor = [UIColor clearColor];

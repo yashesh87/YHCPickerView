@@ -15,6 +15,7 @@
 		CE38A8571632CB5E0071622C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38A8561632CB5E0071622C /* AppDelegate.m */; };
 		CE38A85A1632CB5E0071622C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38A8591632CB5E0071622C /* ViewController.m */; };
 		CE38A85D1632CB5E0071622C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE38A85B1632CB5E0071622C /* ViewController.xib */; };
+		CE38A8651632CB790071622C /* YHCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE38A8641632CB790071622C /* YHCPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		CE38A8461632CB5E0071622C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CE38A8481632CB5E0071622C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE38A84A1632CB5E0071622C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CE38A84E1632CB5E0071622C /* YHCPickerViewDemo-Info.plist */ = {isa = PBXFileReference; path = "YHCPickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		CE38A84E1632CB5E0071622C /* YHCPickerViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YHCPickerViewDemo-Info.plist"; sourceTree = "<group>"; };
 		CE38A8501632CB5E0071622C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE38A8521632CB5E0071622C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE38A8541632CB5E0071622C /* YHCPickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; path = "YHCPickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		CE38A8551632CB5E0071622C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE38A8541632CB5E0071622C /* YHCPickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YHCPickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		CE38A8551632CB5E0071622C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE38A8561632CB5E0071622C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE38A8581632CB5E0071622C /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE38A8581632CB5E0071622C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CE38A8591632CB5E0071622C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE38A85C1632CB5E0071622C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CE38A8631632CB790071622C /* YHCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YHCPickerView.h; path = YHCPickerViewDemo/YHCPickerView.h; sourceTree = SOURCE_ROOT; };
+		CE38A8641632CB790071622C /* YHCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YHCPickerView.m; path = YHCPickerViewDemo/YHCPickerView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +53,7 @@
 		CE38A8371632CB5E0071622C = {
 			isa = PBXGroup;
 			children = (
+				CE38A8661632CBA50071622C /* YHCPickerView */,
 				CE38A84C1632CB5E0071622C /* YHCPickerViewDemo */,
 				CE38A8451632CB5E0071622C /* Frameworks */,
 				CE38A8431632CB5E0071622C /* Products */,
@@ -96,6 +100,16 @@
 				CE38A8541632CB5E0071622C /* YHCPickerViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE38A8661632CBA50071622C /* YHCPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				CE38A8631632CB790071622C /* YHCPickerView.h */,
+				CE38A8641632CB790071622C /* YHCPickerView.m */,
+			);
+			name = YHCPickerView;
+			path = YHCPickerViewDemo/YHCPickerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +177,7 @@
 				CE38A8531632CB5E0071622C /* main.m in Sources */,
 				CE38A8571632CB5E0071622C /* AppDelegate.m in Sources */,
 				CE38A85A1632CB5E0071622C /* ViewController.m in Sources */,
+				CE38A8651632CB790071622C /* YHCPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

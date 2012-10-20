@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  YHCPickerViewDemo
 //
-//  Created by WebAtEase on 20/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Yashesh Chauhan on 20/10/12.
+//  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -12,13 +12,12 @@
 
 @implementation AppDelegate
 
-@synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize window,navigationController;
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [window release];
+    [navigationController release];
     [super dealloc];
 }
 
@@ -26,8 +25,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    ViewController *viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
+    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:viewController] autorelease];
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

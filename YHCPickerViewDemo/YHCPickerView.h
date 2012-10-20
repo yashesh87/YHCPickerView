@@ -2,8 +2,8 @@
 //  YHCPickerView.h
 //  TestDB
 //
-//  Created by RainCreatives on 01/10/12.
-//  Copyright (c) 2012 RainCreatives. All rights reserved.
+//  Created by Yashesh Chauhan on 01/10/12.
+//  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

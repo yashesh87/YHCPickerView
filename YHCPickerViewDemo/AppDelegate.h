@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  YHCPickerViewDemo
 //
-//  Created by WebAtEase on 20/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Yashesh Chauhan on 20/10/12.
+//  Copyright (c) 2012 Yashesh Chauhan. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -14,6 +14,6 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UINavigationController *navigationController;
 
 @end
